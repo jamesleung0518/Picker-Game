@@ -1,3 +1,5 @@
 # Picker Game
  
 Used Unity Version: 2019.4.30f1
+
+This Picker game has a set of 8 blind choices. Every turn, the choices will be shuffled and you will never know what you will reveal. On the top right corner, there are 3 player statistics that need to be monitored. The first one is a coin that represents how much money the player has gained (Whenever the player reveals a positive number, the money increases; whereas the money decreases whenever a negative number is revealed). The second one is an octagram that represents how many lives the player still possesses. If the octagram shows 0, the game ends (Whenever the player reveals an octagram, the number of lives increases; whereas the number of lives decreases whenever a bomb is revealed). The last one is an envelope that represents how many chances the player still possesses to reveal the blind choices. After each selection, the chances decrease by one and the game ends when the envelope shows 0 (Whenever the player reveals an envelope, the number of chances increases).
